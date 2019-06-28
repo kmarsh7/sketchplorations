@@ -1,0 +1,44 @@
+.grid-container {
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.locations{
+    min-width: 300px;
+    max-width: 600px;
+    border: solid 5px transparent;
+    padding: 10px;
+    border-radius: 25px;
+    text-align:center;
+    display:flex;
+    /*justify-content:center;*/
+    /*margin:auto;*/
+}
+
+.locations:hover {
+    border: solid 5px black;
+    border-radius: 10px;
+    
+}
+.Header {
+    background-color:blue;
+    text-align: center;
+    color:white;
+    font-size: 1.5em;
+    padding:5px;
+}
+
+img {
+    max-height: 200px;
+}
+body {
+    background-color: #00ffee;
+    margin: 0;
+}
+h3{
+    justify-content:flex-end;
+}
+.summary{
+    max-width:500px;
+    padding: 30px 10px;
+}

@@ -1,0 +1,39 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.countries {
+    width: 300px;
+    border: solid 5px transparent;
+    padding: 10px;
+    border-radius: 25px;
+    margin:auto;
+}
+
+img {
+    width: 300px;
+}
+body {
+    background-color: #00ffee;
+}
+
+.countries:hover{
+    border: solid 5px black;
+    border-radius: 10px;
+    
+}
+#Title {
+    background-color:blue;
+    text-align: center;
+    color:white;
+    font-size: 2em;
+    padding:10px;
+}
+
+#MainPage {
+    text-align: center;
+}
+
+.CountryName {
+    text-align: center;
+}
