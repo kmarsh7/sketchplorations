@@ -34,6 +34,18 @@ def bahamas():
 @app.route('/results', methods = ["POST", "GET"])
 def results():
     userdata = dict(request.form)
-    airlineClass = userdata['group3'][0]
-    print(airlineClass)
-    return render_template('results.html', airlineClass=airlineClass)
+    print(userdata)
+    airlineClass = userdata["group3"][0]
+    city = userdata["group1"][0]
+    activities = ""
+    # activities = (userdata["group2"][0]) + " " + (userdata["group2"][1]) + " " + (userdata["group2"][2])
+    for activity_chosen in userdata["group2"]:
+        activities += activity_chosen
+        activities += " and "
+    # meal = userdata["group4"][0] + " " + (userdata["group4"][1]) +  " " + (userdata["group4"][2])
+    meal = ""
+    for meal_chosen in userdata["group4"]:
+        meal += meal_chosen
+        meal += " and "
+    hotel = userdata["group5"][0]
+    return render_template('results.html', airlineClass=airlineClass, city = city, activities=activities, meal=meal,hotel=hotel)
