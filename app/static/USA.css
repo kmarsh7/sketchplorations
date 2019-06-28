@@ -42,3 +42,10 @@ h3{
     max-width:500px;
     padding: 30px 10px;
 }
+.q1{
+    
+}
+.grid-contain{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+}

@@ -9,6 +9,8 @@
             <div class = "Header">
                 <h1>Trips to America</h1>
             </div>
+            <div class = "grid-contain">
+            <div class = "column">
             <div class="locations">
                 <div class = "place">
                     <h2 class="CountryName">Exploring New York City</h2>
@@ -16,7 +18,23 @@
                 </div>
                 
                     <div class = "summary">
-                        <p>New York City is the largest populated city in the US, and there are lots of museums and places to visit such as the Natural History and Metropolitan museums. Some of the most popular landmarks are the statue of liberty, the empire state building, and the freedom tower.</p>
+                        <h2>Activities</h2>
+                        <p>
+                            Activity 1: Natural History Museum, Food Halls
+                            <br>
+                            Activity 2: Metropolitain Museum of Art
+                            <br>
+                            Activity 3: Empire State Building and a Yankees Game
+                            <br>
+                            Activity 4: Statue of Liberty and Ellis Island
+                            <br>
+                            Activity 5: Freedom Tower and Wall Street
+                            <br>
+                            Activity 6: Boat Cruise Around NYC, Intrepid Museum
+                            <br>
+                            Activity 7: Central Park
+                        </p>
+                        <p>New York City is the most heavily populated city in the US, and there are lots of museums and places to visit such as the Natural History and Metropolitan museums. Some of the most popular landmarks are the statue of liberty, the empire state building, and the freedom tower.</p>
                     </div>
             </div>
             <div class = "locations">
@@ -26,6 +44,22 @@
                 </div>
                     </a>
                     <div class = "summary">
+                        <h2>Activities</h2>
+                        <p>
+                            Activity 1: Climbing Hollywood Hills
+                            <br>
+                            Activity 2: Santa Monica Pier
+                            <br>
+                            Activity 3: Universal Studios
+                            <br>
+                            Activity 4: Malibu Waterfalls
+                            <br>
+                            Activity 5: Hollywood
+                            <br>
+                            Activity 6: Malibu Zoo
+                            <br>
+                            Activity 7: Watts Towers Art Center, and sports game
+                        </p>
                         <p>There are many things to do in the bustling city of Los Angeles. Climb the iconic Hollywood Hills 
                             and take pictures in front of the iconic Hollywood sign. Visit the famous Santa Monica pier and 
                             enjoy the sunshine while watching the trapeze artists train as the sun sets.
@@ -44,64 +78,173 @@
                     </div>
                        
                     <div class = "summary">
-                        <p>Utah is a fascinating state to visit in the US. It contains many great mountains piled with soft snow to ski on. It also is home to a lot of wildlife and the national parks, Zion, Bryce, Arches, and Canyonlands.</p>
-                    </div>
-                </div>
-            <form action="/results" method="POST" class="grid-container">
-                
-                <div class="locations">
-                  <label>
-                    <input name="location" type="radio" />
-                    <h2 class="CountryName">Exploring New York City</h2>
-                    <img src="https://www.relatedrentals.com/sites/default/files/styles/hero_small/public/2019-05/NewYorkThumbnail.jpg?itok=5WgZJvPf" id = "nyc" >
-                  </label>
-                </div>
-                <div class="locations">
-                  <label>
-                    <input name="location" type="radio" />
-                    <h2 class="CountryName">Exploring New York City</h2>
-                    <img src="https://www.relatedrentals.com/sites/default/files/styles/hero_small/public/2019-05/NewYorkThumbnail.jpg?itok=5WgZJvPf" id = "nyc" >
-                  </label>
-                </div>
-                <div class="locations">
-                  <label>
-                    <input name="location" type="radio" />
-                    <h2 class="CountryName">Exploring New York City</h2>
-                    <img src="https://www.relatedrentals.com/sites/default/files/styles/hero_small/public/2019-05/NewYorkThumbnail.jpg?itok=5WgZJvPf" id = "nyc" >
-                  </label>
-                </div>                
-                
-                <div class = "locations">
-                    <a href = "">
-                        <h2 class = "CountryName">Exploring New York City</h2>
-                        <img src = "https://www.relatedrentals.com/sites/default/files/styles/hero_small/public/2019-05/NewYorkThumbnail.jpg?itok=5WgZJvPf" id = "nyc" >
-                        <br>
-                    </a>
-                    <div class = "summary">
-                        <p></p>
-                    </div>
-                </div>
-                <div class = "locations">
-                    <a href = "">
-                        <h2 class = "CountryName">Adventure in Los Angeles</h2>
-                        <img src = "https://www.clydeco.com/images/made/uploads/Images/***Image-Library***/Places/USA/losangeles_shutterstock_654461677_CMYK_WEB_800_800_90_s_c1_c_c.jpg" id = "la" >
-                        <br>
-                    </a>
-                    <div class = "summary">
                         <p>
-                            
+                            Vacation 1: Skiing Utah's Mountains
+                            <br>
+                            Vacation 2: Touring Utah's National Parks
                         </p>
+                        <p>Utah is a fascinating state to visit in the US. It contains many great mountains piled with soft snow to ski on. It also is home to many species of wildlife and, Zion National Park, Bryce National Park, Arches National Park, and Canyonlands National Park.</p>
                     </div>
                 </div>
-                <div class = 'locations'>
-                    <a href = "">
-                        <h2 class = "CountryName">Discovering Utah</h2>
-                        <img src = "https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,g_auto,h_577,q_60,w_577/v1/clients/saltlake/SkiCity_ResortsMarch2017_HiRez_AustenDiamondPhotography_70_dd0a0fca-365f-4e2d-8a77-9e8a124f5bef.jpg" id = "utah">
-                    </a>    
-                    <div class = "summary">
-                        <p></p>
-                    </div>
                 </div>
+            <div class = "column">
+            <form action="/results" method="POST" class="grid-container">
+                <div class = "q1">
+                        <p>
+                        <h3>Where would you like to go?</h3>
+                          <label>
+                          <input name="group1" type="radio" />
+        <span>New York City</span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input name="group1" type="radio" />
+        <span>Los Angeles</span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input class="with-gap" name="group1" type="radio"  />
+        <span>Utah</span>
+      </label>
+    </p>
+    <h3>Which activities would you like to do?</h3>
+    <p>
+      <label>
+        <input type="checkbox" name = "group2"/>
+        <span>Skiing(Utah)</span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input type="checkbox" name = "group2"/>
+        <span>Hiking</span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input type="checkbox" name = "group2"  />
+        <span>National Parks (Utah)</span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input id="indeterminate-checkbox" type="checkbox" name = "group2"/>
+        <span>Universal Studios(Los Angeles)</span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input type="checkbox"  name = "group2"/>
+        <span>Museums</span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input type="checkbox" name = "group2"/>
+        <span>Visit famous landmarks</span>
+      </label>
+    </p>
+    <h3>Which airline class would you like to take?</h3>
+    <p>
+      <label>
+        <input name="group3" type="radio" />
+        <span>Economy</span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input name="group3" type="radio" />
+        <span>Economy plus</span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input name="group3" type="radio"  />
+        <span>Business</span>
+      </label>
+      <h3>Which meals would you like us to provide?</h3>
+      <p>
+      <label>
+        <input type="checkbox" name = "group4"/>
+        <span>Breakfast</span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input type="checkbox" name = "group4"/>
+        <span>Lunch</span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input type="checkbox" name = "group4"/>
+        <span>Dinner</span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input type="checkbox" name = "group4"/>
+        <span>Snack</span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input type="checkbox" name = "group4"/>
+        <span>None</span>
+      </label>
+    </p>
+    </p>
+    <h3>Which hotel would you like to visit?</h3>
+    <p>
+      <label>
+        <input name="group5" type="radio" />
+        <span>Four Seasons</span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input name="grou5" type="radio" />
+        <span>Marriot</span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input name="group5" type="radio"  />
+        <span>Westin</span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input name="group5" type="radio" />
+        <span>Hilton</span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input name="group5" type="radio" />
+        <span>Hyatt</span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input name="group5" type="radio" />
+        <span>St.Regis</span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input name="group5" type="radio" />
+        <span>AirBnb</span>
+      </label>
+    </p>
+    <input type="submit" value="Submit"/>
+    </div>
+    </form>
+    </div>
+    </div>
+    
                 <div class = "contactinfo">
                     <center>
                         <h3>Have any Questions? Contact us with this information below:</h3>
@@ -109,6 +252,6 @@
                         <h3>Email us at: not_a_hacker@sketchplorations.net </h3>
                     </center>
                 </div>
-            </form>
+            
         </body>
     </html>

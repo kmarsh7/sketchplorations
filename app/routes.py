@@ -31,8 +31,9 @@ def china():
 def bahamas():
     return render_template('bahamas.html')
     
-@app.route('/results')
+@app.route('/results', methods = ["POST", "GET"])
 def results():
     userdata = dict(request.form)
-    return render_template('results.html')
-    
+    airlineClass = userdata['group3'][0]
+    print(airlineClass)
+    return render_template('results.html', airlineClass=airlineClass)
